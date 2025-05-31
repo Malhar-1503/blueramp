@@ -191,30 +191,33 @@
 /* MOBILE FRIENDLY UPDATES */
 @media (max-width: 768px) {
     .hero-caption {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-logo {
-        width: 150px;
+        width: 150px !important;
         max-width: 60vw;
     }
 
     .caption-container {
         width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 70px;
         max-width: 70vw;
     }
 
     .hero-content-layer {
-        padding: 0 15px;
         flex-direction: column;
         top: 50%;
-        transform: translateY(-50%);
+        /* reduce padding for smaller screens */
+        justify-content: center;
+        align-items: center;
     }
 
     .hero-content {
         flex-direction: column;
-        gap: 10px;
     }
 }
 

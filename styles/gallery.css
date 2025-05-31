@@ -1,0 +1,95 @@
+.gallery-image {
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s
+}
+
+.gallery-image,
+.section-title,
+.carousel-control-prev,
+.carousel-control-next {
+    will-change: transform, opacity;
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none
+}
+
+.modal-image {
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block
+}
+
+.carousel-control-prev.control-strict,
+.carousel-control-next.control-strict {
+    width: auto;
+    height: max-content;
+    padding: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.2s ease
+}
+
+.carousel-control-prev.control-strict:hover,
+.carousel-control-next.control-strict:hover {
+    background-color: rgba(255, 255, 255, 0.7)
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100% 100%;
+    filter: invert(1)
+}
+
+.btn-close {
+    filter: invert(1);
+    z-index: 10
+}
+
+.section-title {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease
+}
+
+.section-title.animate-fade-in {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #4da6ff
+}
+
+@media(max-width:576px) {
+    .section-title {
+        font-size: 1.35rem
+    }
+
+    .section-title::after {
+        width: 80%;
+        height: 1.5px
+    }
+}

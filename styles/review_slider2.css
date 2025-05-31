@@ -1,0 +1,85 @@
+ .reviews-section {
+     padding: 80px 0;
+
+ }
+
+
+
+ .carousel-indicators {
+     justify-content: center;
+     position: relative;
+     bottom: auto;
+     margin-top: 30px;
+     /* Adjust spacing from the cards */
+ }
+
+ .carousel-indicators [data-bs-target] {
+     width: 12px;
+     height: 12px;
+     background-color: #ffffff;
+     border-radius: 50%;
+     margin: 0 6px;
+     opacity: 0.6;
+ }
+
+ .carousel-indicators .active {
+     opacity: 1;
+     background-color: #5facfe;
+ }
+
+ .review-card {
+     background-color: #1e0e5322;
+     padding: 30px;
+     min-height: 500px;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     text-align: center;
+     border-radius: 10px;
+     color: white;
+     height: 100%;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+ }
+
+ .reviewer-img {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-bottom: 15px;
+     border: 3px solid #5facfe;
+     display: block;
+ }
+
+ .review-text {
+     flex-grow: 1;
+     font-size: .9rem;
+     font-style: italic;
+     color: ghostwhite;
+ }
+
+ .carousel-control-prev,
+ .carousel-control-next {
+     width: 50px;
+     height: 50px;
+     background-color: rgba(79, 172, 255, 0.2);
+     border-radius: 50%;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .carousel-control-prev:hover,
+ .carousel-control-next:hover {
+     background-color: rgba(79, 172, 255, 0.5);
+ }
+
+ @media (max-width: 768px) {
+
+     .carousel-control-prev {
+         left: 5px;
+     }
+
+     .carousel-control-next {
+         right: 5px;
+     }
+ }

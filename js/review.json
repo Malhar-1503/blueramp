@@ -1,0 +1,68 @@
+{
+    "reviews": [
+        {
+            "id": 1,
+            "name": "John Smith",
+            "title": "Event Coordinator",
+            "image": "https://randomuser.me/api/portraits/men/32.jpg",
+            "text": "The service was exceptional from start to finish. The team went above and beyond to ensure our event was perfect. Highly recommended!",
+            "rating": 5
+        },
+        {
+            "id": 2,
+            "name": "Sarah Johnson",
+            "title": "Marketing Director",
+            "image": "https://randomuser.me/api/portraits/women/44.jpg",
+            "text": "Absolutely stunning venue and flawless execution. Our guests couldn't stop talking about how beautiful everything was. Will definitely use again!",
+            "rating": 5
+        },
+        {
+            "id": 3,
+            "name": "Michael Chen",
+            "title": "CEO, TechStart",
+            "image": "https://randomuser.me/api/portraits/men/75.jpg",
+            "text": "Professional, attentive, and creative. They took our vision and made it even better than we imagined. Five stars all around!",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "name": "Emily Wilson",
+            "title": "Bride",
+            "image": "https://randomuser.me/api/portraits/women/68.jpg",
+            "text": "The attention to detail was remarkable. Every aspect of our wedding was handled with care and professionalism. Simply perfect!",
+            "rating": 5
+        },
+        {
+            "id": 5,
+            "name": "David Thompson",
+            "title": "HR Director",
+            "image": "https://randomuser.me/api/portraits/men/81.jpg",
+            "text": "Our corporate retreat was a huge success thanks to their planning. The team anticipated our every need before we even asked.",
+            "rating": 4
+        },
+        {
+            "id": 6,
+            "name": "Jessica Brown",
+            "title": "Nonprofit Director",
+            "image": "https://randomuser.me/api/portraits/women/63.jpg",
+            "text": "From the initial consultation to the final cleanup, everything was handled seamlessly. Worth every penny for the peace of mind.",
+            "rating": 5
+        },
+        {
+            "id": 7,
+            "name": "Robert Garcia",
+            "title": "Product Manager",
+            "image": "https://randomuser.me/api/portraits/men/22.jpg",
+            "text": "The event exceeded all our expectations. The coordination was flawless and the team was incredibly responsive to our needs.",
+            "rating": 5
+        },
+        {
+            "id": 8,
+            "name": "Lisa Wong",
+            "title": "Creative Director",
+            "image": "https://randomuser.me/api/portraits/women/85.jpg",
+            "text": "We've worked with many event planners, but none compare to the level of service and creativity we received here. Outstanding!",
+            "rating": 5
+        }
+    ]
+}

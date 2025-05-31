@@ -1,0 +1,136 @@
+:root {
+    --accent-blue: #4da6ff;
+    --transition-speed: 0.5s;
+    /* Match venture-card transition speed */
+}
+
+.sporting-events {
+    padding: 4rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: var(--text-dark);
+    font-size: 2.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--accent-blue);
+}
+
+/* ✅ Updated event-card styles to match venture-card */
+.event-card {
+    position: relative;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid transparent;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+    box-shadow: 8px 6px 12px 4px rgba(0, 0, 0, 0.1);
+    text-decoration: dashed;
+}
+
+/* ✅ Image + overlay */
+.event-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all var(--transition-speed) ease;
+}
+
+.event-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+/* ✅ Matching animated border */
+.event-card::before,
+.event-card::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 2px solid transparent;
+    transition: all var(--transition-speed) ease;
+    pointer-events: none;
+    z-index: 3;
+}
+
+.event-card::before {
+    top: 0;
+    left: 0;
+    border-top-color: var(--accent-blue);
+    border-left-color: var(--accent-blue);
+}
+
+.event-card::after {
+    bottom: 0;
+    right: 0;
+    border-bottom-color: var(--accent-blue);
+    border-right-color: var(--accent-blue);
+}
+
+/* ✅ Hover effect */
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.event-card:hover::before,
+.event-card:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.event-card:hover .event-image {
+    transform: scale(1.05);
+}
+
+/* ✅ Event text */
+.event-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    line-height: 1.4;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+    .event-card {
+        padding: 1.5rem;
+        height: 150px;
+    }
+
+    .event-image {
+        background-size: cover;
+        height: 70%;
+    }
+
+    .event-name {
+        font-size: .7rem;
+    }
+}

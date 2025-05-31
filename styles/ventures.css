@@ -1,0 +1,102 @@
+/* VENTURES GRID STYLES - Copy this to your existing CSS */
+.ventures-grid {
+    --border-blue: #4da6ff;
+    --transition-speed: 0.5s;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 50px;
+}
+
+.ventures-grid .section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.ventures-grid .venture-card img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    margin: 0 auto;
+    transition: transform var(--transition-speed) ease;
+}
+
+.ventures-grid .venture-card {
+    position: relative;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #1e0e5322;
+    box-shadow: 8px 6px 12px 4px rgb(0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 0px 50px 0px 50px;
+    border: 1px solid transparent;
+    transition: all var(--transition-speed) ease;
+}
+
+.ventures-grid .venture-card::before,
+.ventures-grid .venture-card::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 1px solid transparent;
+    border-radius: 0px 50px 0px 50px;
+    transition: all var(--transition-speed) ease;
+    pointer-events: none;
+}
+
+.ventures-grid .venture-card::before {
+    top: 0;
+    left: 0;
+    border-top-color: var(--border-blue);
+    border-left-color: var(--border-blue);
+}
+
+.ventures-grid .venture-card::after {
+    bottom: 0;
+    right: 0;
+    border-bottom-color: var(--border-blue);
+    border-right-color: var(--border-blue);
+}
+
+.ventures-grid .venture-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.ventures-grid .venture-card:hover::before,
+.ventures-grid .venture-card:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.ventures-grid .venture-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+    z-index: 1;
+}
+
+.ventures-grid .venture-location {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .ventures-grid .venture-card {
+        height: 100px;
+    }
+    .ventures-grid .venture-name {
+        font-size: 1rem;
+    }
+}

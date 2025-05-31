@@ -1,0 +1,401 @@
+[
+    {
+        "category": "Abhangwari",
+        "images": [
+            {
+                "src": "assets/images/events/abhangwari/abhangwari (1).webp",
+                "alt": "abhangwari 1"
+            },
+            {
+                "src": "assets/images/events/abhangwari/abhangwari (2).webp",
+                "alt": "abhangwari 2"
+            },
+            {
+                "src": "assets/images/events/abhangwari/abhangwari (3).webp",
+                "alt": "abhangwari 3"
+            },
+            {
+                "src": "assets/images/events/abhangwari/abhangwari (4).webp",
+                "alt": "abhangwari 4"
+            }
+        ]
+    },
+    {
+        "category": "Ayushyavar Bolu Kahi",
+        "images": [
+            {
+                "src": "assets/images/events/abk/abk (1).webp",
+                "alt": "abk 1"
+            },
+            {
+                "src": "assets/images/events/abk/abk (3).webp",
+                "alt": "abk 2"
+            },
+            {
+                "src": "assets/images/events/abk/abk (4).webp",
+                "alt": "abk 3"
+            },
+            {
+                "src": "assets/images/events/abk/abk (5).webp",
+                "alt": "abk 4"
+            }
+        ]
+    },
+    {
+        "category": "Bharat Balvalli",
+        "images": [
+            {
+                "src": "assets/images/events/balvalli/balvalli (1).webp",
+                "alt": "balvalli 1"
+            },
+            {
+                "src": "assets/images/events/balvalli/balvalli (2).webp",
+                "alt": "balvalli 2"
+            },
+            {
+                "src": "assets/images/events/balvalli/balvalli (3).webp",
+                "alt": "balvalli 3"
+            },
+            {
+                "src": "assets/images/events/balvalli/balvalli (4).webp",
+                "alt": "balvalli 4"
+            }
+        ]
+    },
+    {
+        "category": "Happy Streets",
+        "images": [
+            {
+                "src": "assets/images/events/happy streets/happy streets (1).webp",
+                "alt": "happy streets 1"
+            },
+            {
+                "src": "assets/images/events/happy streets/happy streets (2).webp",
+                "alt": "happy streets 2"
+            },
+            {
+                "src": "assets/images/events/happy streets/happy streets (3).webp",
+                "alt": "happy streets 3"
+            },
+            {
+                "src": "assets/images/events/happy streets/happy streets (4).webp",
+                "alt": "happy streets 4"
+            }
+        ]
+    },
+    {
+        "category": "Flag Hoisting",
+        "images": [
+            {
+                "src": "assets/images/events/flag hoisting/flag hoisting (1).webp",
+                "alt": "flag hoisting 1"
+            },
+            {
+                "src": "assets/images/events/flag hoisting/flag hoisting (2).webp",
+                "alt": "flag hoisting 2"
+            },
+            {
+                "src": "assets/images/events/flag hoisting/flag hoisting (3).webp",
+                "alt": "flag hoisting 3"
+            },
+            {
+                "src": "assets/images/events/flag hoisting/flag hoisting (4).webp",
+                "alt": "flag hoisting 4"
+            }
+        ]
+    },
+    {
+        "category": "Kaushiki Chakraborty",
+        "images": [
+            {
+                "src": "assets/images/events/kaushiki/kaushiki (1).webp",
+                "alt": "kaushiki 1"
+            },
+            {
+                "src": "assets/images/events/kaushiki/kaushiki (2).webp",
+                "alt": "kaushiki 2"
+            },
+            {
+                "src": "assets/images/events/kaushiki/kaushiki (3).webp",
+                "alt": "kaushiki 3"
+            },
+            {
+                "src": "assets/images/events/kaushiki/kaushiki (4).webp",
+                "alt": "kaushiki 4"
+            }
+        ]
+    },
+    {
+        "category": "Rabbi Shergill",
+        "images": [
+            {
+                "src": "assets/images/events/rabbi shergil/rabbi (1).webp",
+                "alt": "rabbi shergil 1"
+            },
+            {
+                "src": "assets/images/events/rabbi shergil/rabbi (2).webp",
+                "alt": "rabbi shergil 2"
+            },
+            {
+                "src": "assets/images/events/rabbi shergil/rabbi (3).webp",
+                "alt": "rabbi shergil 3"
+            },
+            {
+                "src": "assets/images/events/rabbi shergil/rabbi (4).webp",
+                "alt": "rabbi shergil 4"
+            }
+        ]
+    },
+    {
+        "category": "Rahul Deshpande",
+        "images": [
+            {
+                "src": "assets/images/events/rahul/rahul (1).webp",
+                "alt": "rahul 1"
+            },
+            {
+                "src": "assets/images/events/rahul/rahul (2).webp",
+                "alt": "rahul 2"
+            },
+            {
+                "src": "assets/images/events/rahul/rahul (3).webp",
+                "alt": "rahul 3"
+            },
+            {
+                "src": "assets/images/events/rahul/rahul (4).webp",
+                "alt": "rahul 4"
+            }
+        ]
+    },
+    {
+        "category": "Sakal Auto Expo",
+        "images": [
+            {
+                "src": "assets/images/events/sakal auto expo/auto expo (1).webp",
+                "alt": "Sakal Auto Expo 1"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo/auto expo (2).webp",
+                "alt": "Sakal Auto Expo 2"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo/auto expo (3).webp",
+                "alt": "Sakal Auto Expo 3"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo/auto expo (4).webp",
+                "alt": "Sakal Auto Expo 4"
+            }
+        ]
+    },
+    {
+        "category": "Swedish Corporate Championship",
+        "images": [
+            {
+                "src": "assets/images/events/scc/scc (1).webp",
+                "alt": "scc 1"
+            },
+            {
+                "src": "assets/images/events/scc/scc (2).webp",
+                "alt": "scc 2"
+            },
+            {
+                "src": "assets/images/events/scc/scc (3).webp",
+                "alt": "scc 3"
+            },
+            {
+                "src": "assets/images/events/scc/scc (4).webp",
+                "alt": "scc 4"
+            }
+        ]
+    },
+    {
+        "category": "Atlas Copco",
+        "images": [
+            {
+                "src": "assets/images/events/atlas copco/atlas copco (1).webp",
+                "alt": "atlas copco 1"
+            },
+            {
+                "src": "assets/images/events/atlas copco/atlas copco (2).webp",
+                "alt": "atlas copco 2"
+            },
+            {
+                "src": "assets/images/events/atlas copco/atlas copco (3).webp",
+                "alt": "atlas copco 3"
+            },
+            {
+                "src": "assets/images/events/atlas copco/atlas copco (4).webp",
+                "alt": "atlas copco 4"
+            }
+        ]
+    },
+    {
+        "category": "Shreya Ghoshal",
+        "images": [
+            {
+                "src": "assets/images/events/shreya ghoshal/shreya (1).webp",
+                "alt": "shreya ghoshal 1"
+            },
+            {
+                "src": "assets/images/events/shreya ghoshal/shreya (2).webp",
+                "alt": "shreya ghoshal 2"
+            },
+            {
+                "src": "assets/images/events/shreya ghoshal/shreya (3).webp",
+                "alt": "shreya ghoshal 3"
+            },
+            {
+                "src": "assets/images/events/shreya ghoshal/shreya (4).webp",
+                "alt": "shreya ghoshal 4"
+            }
+        ]
+    },
+    {
+        "category": "Sonu Nigam",
+        "images": [
+            {
+                "src": "assets/images/events/sonu nigam/sonu nigam (1).webp",
+                "alt": "sonu nigam 1"
+            },
+            {
+                "src": "assets/images/events/sonu nigam/sonu nigam (2).webp",
+                "alt": "sonu nigam 2"
+            },
+            {
+                "src": "assets/images/events/sonu nigam/sonu nigam (3).webp",
+                "alt": "sonu nigam 3"
+            },
+            {
+                "src": "assets/images/events/sonu nigam/sonu nigam (4).webp",
+                "alt": "sonu nigam 4"
+            }
+        ]
+    },
+    {
+        "category": "Surmayi Pahaat",
+        "images": [
+            {
+                "src": "assets/images/events/surmayi pahat/surmayi pahaat (1).webp",
+                "alt": "surmayi pahat 1"
+            },
+            {
+                "src": "assets/images/events/surmayi pahat/surmayi pahaat (2).webp",
+                "alt": "surmayi pahat 2"
+            },
+            {
+                "src": "assets/images/events/surmayi pahat/surmayi pahaat (3).webp",
+                "alt": "surmayi pahat 3"
+            },
+            {
+                "src": "assets/images/events/surmayi pahat/surmayi pahaat (4).webp",
+                "alt": "surmayi pahat 4"
+            }
+        ]
+    },
+    {
+        "category": "Suvarna Sakal",
+        "images": [
+            {
+                "src": "assets/images/events/suvarna sakal/suvarna sakal (1).webp",
+                "alt": "suvarna sakal 1"
+            },
+            {
+                "src": "assets/images/events/suvarna sakal/suvarna sakal (2).webp",
+                "alt": "suvarna sakal 2"
+            },
+            {
+                "src": "assets/images/events/suvarna sakal/suvarna sakal (3).webp",
+                "alt": "suvarna sakal 3"
+            },
+            {
+                "src": "assets/images/events/suvarna sakal/suvarna sakal (4).webp",
+                "alt": "suvarna sakal 4"
+            }
+        ]
+    },
+    {
+        "category": "Swanand Kirkire",
+        "images": [
+            {
+                "src": "assets/images/events/swanand/swanand (1).webp",
+                "alt": "swanand kirkire 1"
+            },
+            {
+                "src": "assets/images/events/swanand/swanand (2).webp",
+                "alt": "swanand kirkire 2"
+            },
+            {
+                "src": "assets/images/events/swanand/swanand (3).webp",
+                "alt": "swanand kirkire 3"
+            },
+            {
+                "src": "assets/images/events/swanand/swanand (4).webp",
+                "alt": "swanand kirkire 4"
+            }
+        ]
+    },
+    {
+        "category": "Chitale Bandhu",
+        "images": [
+            {
+                "src": "assets/images/events/chitale/chitale (1).webp",
+                "alt": "abk 1"
+            },
+            {
+                "src": "assets/images/events/chitale/chitale (2).webp",
+                "alt": "abk 2"
+            },
+            {
+                "src": "assets/images/events/chitale/chitale (3).webp",
+                "alt": "abk 3"
+            },
+            {
+                "src": "assets/images/events/chitale/chitale (4).webp",
+                "alt": "abk 4"
+            }
+        ]
+    },
+    {
+        "category": "Corporate Carnival",
+        "images": [
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (1).webp",
+                "alt": "Corporate Carnival 1"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (2).webp",
+                "alt": "Corporate Carnival 2"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (3).webp",
+                "alt": "Corporate Carnival 3"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (4).webp",
+                "alt": "Corporate Carnival 4"
+            }
+        ]
+    },
+    {
+        "category": "Siemens",
+        "images": [
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (1).webp",
+                "alt": "Siemens 1"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (2).webp",
+                "alt": "Siemens 2"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (3).webp",
+                "alt": "Siemens 3"
+            },
+            {
+                "src": "assets/images/events/sakal auto expo 2023/auto expo 2023 (4).webp",
+                "alt": "Siemens 4"
+            }
+        ]
+    }
+]

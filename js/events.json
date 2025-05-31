@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Swasthyam",
+        "image": "assets/event_logo/swasthyam.png",
+        "eventKey": "swasthyam",
+        "link": "gallery.html#swasthyam"
+    },
+    {
+        "name": "Survarna Sakal",
+        "image": "assets/event_logo/suvarna sakal.png",
+        "eventKey": "diwali pahaat",
+        "link": "gallery.html#diwalipahaat"
+    },
+    {
+        "name": "Surmayee Pahaat",
+        "image": "assets/event_logo/surmayi pahaat.png",
+        "eventKey": "flea under the tree",
+        "link": "gallery.html#fleaunderthetree"
+    },
+    {
+        "name": "Happy Streets",
+        "image": "assets/event_logo/happy streets.png",
+        "eventKey": "happy streets",
+        "link": "gallery.html#happystreets"
+    },
+    {
+        "name": "Shehenshah",
+        "image": "assets/event_logo/shehenshah.png",
+        "eventKey": "petopia",
+        "link": "gallery.html#petopia"
+    },
+    {
+        "name": "Dil Padosi Hai",
+        "image": "assets/event_logo/dil padosi hai.png",
+        "eventKey": "diwali pahaat",
+        "link": "gallery.html#diwalipahaat"
+    },
+    {
+        "name": "Nakshatranche Dene",
+        "image": "assets/event_logo/nakshatranche dene.png",
+        "eventKey": "kidzathon",
+        "link": "gallery.html#nakshatranchedene"
+    },
+    {
+        "name": "Ayushyavar Bolu Kahi",
+        "image": "assets/event_logo/ayushyavar bolu kahi.png",
+        "eventKey": "happy streets",
+        "link": "gallery.html#ayushyavarbolukahi"
+    },
+    {
+        "name": "Abhangwari",
+        "image": "assets/event_logo/abhangwari.png",
+        "eventKey": "petopia",
+        "link": "gallery.html#abhangwari"
+    },
+    {
+        "name": "Krutadnyata Sohala - Chitale Bandhu",
+        "image": "assets/event_logo/chitale.jpg",
+        "eventKey": "diwali pahaat",
+        "link": "gallery.html#diwalipahaat"
+    },
+    {
+        "name": "Sakal Auto Expo",
+        "image": "assets/event_logo/sakal.png",
+        "eventKey": "flea under the tree",
+        "link": "gallery.html#fleaunderthetree"
+    },
+    {
+        "name": "Mahindra Gala",
+        "image": "assets/event_logo/mahindra gala.png",
+        "eventKey": "happy streets",
+        "link": "gallery.html#happystreets"
+    },
+    {
+        "name": "Flea Under The Tree",
+        "image": "assets/event_logo/flea under the tree.png",
+        "eventKey": "petopia",
+        "link": "gallery.html#petopia"
+    },
+    {
+        "name": "Shreya Ghoshal - All Hearts Tour",
+        "image": "assets/event_logo/all hearts tour.jpg",
+        "eventKey": "happy streets",
+        "link": "gallery.html#happystreets"
+    },
+    {
+        "name": "Flag Hoisting",
+        "image": "https://via.placeholder.com/600x400/0072ce/FFFFFF?text=Petopia",
+        "eventKey": "petopia",
+        "link": "gallery.html#petopia"
+    }
+]

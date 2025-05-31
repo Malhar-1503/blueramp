@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Swedish Corporate Championship",
+        "image": "assets/event_logo/swedish corporate championship.png",
+        "eventKey": "swedish corporate championship",
+        "link": "gallery.html#swedishcorporatechampionship"
+    },
+    {
+        "name": "Kidzathon",
+        "image": "assets/event_logo/maharashtra times kidzathon.png",
+        "eventKey": "Kidzathon",
+        "link": "gallery.html#kidzathon"
+    },
+    {
+        "name": "Petopia",
+        "image": "assets/event_logo/petopia.png",
+        "eventKey": "petopia",
+        "link": "gallery.html#petopia"
+    },
+    {
+        "name": "Industrial Marathon",
+        "image": "assets/event_logo/industrial marathon.png",
+        "eventKey": "industrialmarathon",
+        "link": "gallery.html#industrialmarathon"
+    },
+    {
+        "name": "Siemens",
+        "image": "assets/event_logo/siemens.jpg",
+        "eventKey": "siemens",
+        "link": "gallery.html#siemens"
+    },
+    {
+        "name": "Atlas Copco",
+        "image": "assets/event_logo/atlas.jpg",
+        "eventKey": "atlascopco",
+        "link": "gallery.html#atlascopco"
+    },
+    {
+        "name": "Corporate Carnival",
+        "image": "assets/event_logo/corporate carnival.jpg",
+        "eventKey": "corporatecarnival",
+        "link": "gallery.html#corporatecarnival"
+    }
+]

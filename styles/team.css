@@ -1,0 +1,283 @@
+.card-wrapper {
+    transform: scale(0.9);
+    transform-origin: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.about-card-container {
+    position: relative;
+    transform: skewX(-15deg);
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    background-color: #1e0e5322;
+    transition: transform 0.5s ease;
+    z-index: 0;
+}
+
+.about-card-container:hover {
+    transform: skewX(-15deg) translateY(-5px);
+}
+
+.about-card-container::before,
+.about-card-container::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.about-card-container::before {
+    top: 0;
+    left: 0;
+    border-top-color: #4da6ff;
+    border-left-color: #4da6ff;
+}
+
+.about-card-container::after {
+    bottom: 0;
+    right: 0;
+    border-bottom-color: #4da6ff;
+    border-right-color: #4da6ff;
+}
+
+.about-card-container:hover::before,
+.about-card-container:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.about-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: skewX(15deg) scale(1);
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60%;
+    background: linear-gradient(to top,
+            rgba(0, 8, 80, 0.8) 0%,
+            rgba(0, 8, 80, 0.4) 40%,
+            rgba(0, 0, 0, 0) 100%);
+    z-index: 3;
+}
+
+.about-content {
+    transform: skewX(25deg);
+    z-index: 4;
+    text-align: left;
+    padding: 1.5rem;
+    width: 100%;
+    position: relative;
+}
+
+.about-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.3rem;
+    color: #e0e0e0;
+    margin-left: 0.7rem;
+    transform: skewX(-15deg);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about-desc {
+    font-size: 0.95rem;
+    color: #e0e0e0;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transform: skewX(-15deg);
+}
+
+.section-wrapper {
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+
+
+
+.our-learnings,
+.who-we-are {
+    padding: 80px 50px 20px;
+}
+
+.our-learnings {
+    border-bottom: 1px solid #4cc9f0;
+    border-radius: 0px 0px 75px 0px;
+}
+
+.who-we-are {
+    justify-content: center;
+    text-align: right;
+    border-bottom: 1px solid #4cc9f0;
+    border-radius: 0px 0px 0px 75px;
+    margin-top: -1px;
+    /* Overlap the border to connect smoothly */
+}
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4cc9f0;
+}
+
+.section-desc {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .about-card-container {
+        transform: none;
+        height: 440px;
+    }
+
+    .about-card {
+        transform: none !important;
+    }
+
+    .our-learnings,
+    .who-we-are {
+        padding: 50px 25px 20px;
+    }
+
+    .our-learnings {
+        border-bottom: 1px solid #4cc9f0;
+        border-radius: 0px 0px 50px 0px;
+    }
+
+    .who-we-are {
+        border-bottom: 1px solid #4cc9f0;
+        border-radius: 0px 0px 0px 50px;
+    }
+
+    .about-content,
+    .about-name,
+    .about-desc {
+        transform: none !important;
+        margin-left: 0;
+    }
+}
+
+.about-card.bhagyesh {
+    background-image: url('/assets/team/bhagyesh.png');
+    background-attachment: lazy;
+}
+
+.about-card.aditya {
+    background-image: url('/assets/team/aditya.png');
+    background-attachment: lazy;
+}
+
+.about-card.anish {
+    background-image: url('/assets/team/anish.png');
+    background-attachment: lazy;
+}
+
+.about-card.avdhoot {
+    background-image: url('/assets/team/avdhoot.png');
+    background-attachment: lazy;
+}
+
+.about-card.dattabhau {
+    background-image: url('/assets/team/dattabhau.png');
+    background-attachment: lazy;
+}
+
+.about-card.meghna {
+    background-image: url('/assets/team/meghna.png');
+    background-attachment: lazy;
+}
+
+.about-card.nachiket {
+    background-image: url('/assets/team/nachiket.png');
+    background-attachment: lazy;
+}
+
+.about-card.ninad {
+    background-image: url('/assets/team/ninad.png');
+    background-attachment: lazy;
+}
+
+.about-card.prashant {
+    background-image: url('/assets/team/prashant.png');
+    background-attachment: lazy;
+}
+
+.about-card.pushkar {
+    background-image: url('/assets/team/pushkar.png');
+    background-attachment: lazy;
+}
+
+.about-card.rohit {
+    background-image: url('/assets/team/rohit.png');
+    background-attachment: lazy;
+}
+
+.about-card.sanket {
+    background-image: url('/assets/team/sanket.png');
+    background-attachment: lazy;
+}
+
+.about-card.sara {
+    background-image: url('/assets/team/sara.png');
+    background-attachment: lazy;
+}
+
+.about-card.saumitra {
+    background-image: url('/assets/team/saumitra.png');
+    background-attachment: lazy;
+}
+
+.about-card.shrirang {
+    background-image: url('/assets/team/shrirang.png');
+    background-attachment: lazy;
+}
+
+.about-card.siddharth {
+    background-image: url('/assets/team/siddharth.png');
+    background-attachment: lazy;
+}
+
+.about-card.siddhi {
+    background-image: url('/assets/team/siddhi.png');
+    background-attachment: lazy;
+}
+
+.about-card.swapnil {
+    background-image: url('/assets/team/swapnil.png');
+    background-attachment: lazy;
+}
+
+.about-card.ved {
+    background-image: url('/assets/team/ved.png');
+    background-attachment: lazy;
+}
+
+.about-card.viru {
+    background-image: url('/assets/team/viru.png');
+    background-attachment: lazy;
+}

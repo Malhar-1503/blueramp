@@ -1,0 +1,180 @@
+/* Reviews Section */
+.reviews-section {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+/* Review Cards */
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+    max-width: 300px;
+    /* Max width for the review card */
+}
+
+/* Reviewer Image */
+.reviewer-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #4da6ff;
+}
+
+/* Review Text */
+.review-text {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Reviewer Name */
+.reviewer-name {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Reviewer Title */
+.reviewer-title {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+    position: relative;
+    margin-top: 30px;
+    bottom: auto;
+    text-align: center;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(77, 166, 255, 0.4);
+    border: none;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.carousel-indicators .active {
+    background-color: #4da6ff;
+    width: 30px;
+    border-radius: 5px;
+}
+
+/* Navigation Arrows */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(77, 166, 255, 0.8);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+    display: none;
+    /* Hide by default */
+}
+
+.carousel-control-prev {
+    left: -20px;
+}
+
+.carousel-control-next {
+    right: -20px;
+}
+
+/* Show Arrows on Mobile */
+@media (max-width: 767.98px) {
+    .review-card {
+        margin: 0 25px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-control-prev {
+        left: 5px;
+    }
+
+    .carousel-control-next {
+        right: 5px;
+    }
+
+    /* Ensure arrows don't interfere with content */
+    .carousel-control-prev,
+    .carousel-control-next {
+        z-index: 10;
+        /* Make sure arrows are above content */
+    }
+}
+
+/* Swiper Adjustments */
+.swiper {
+    position: relative;
+    padding: 0 50px;
+    /* Adds more margin for the content, pushing arrows further away */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    padding: 10px;
+}
+
+.swiper-button-next {
+    right: 30px;
+    /* Increased space from the right */
+}
+
+.swiper-button-prev {
+    left: 30px;
+    /* Increased space from the left */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide .review-card {
+    width: 100%;
+    max-width: 300px;
+    /* Max width for the review card */
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Pause autoplay on hover */
+.carousel:hover {
+    animation-play-state: paused;
+}
+
+/* Ensure swiper has proper width and maintains a good balance */
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

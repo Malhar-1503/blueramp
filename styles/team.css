@@ -7,7 +7,6 @@
 
 .about-card-container {
     position: relative;
-    transform: skewX(-15deg);
     overflow: hidden;
     height: 400px;
     display: flex;
@@ -20,6 +19,7 @@
     border: 1px solid transparent;
     background-color: #1e0e5322;
     transition: transform 0.5s ease;
+    transform: skewX(-15deg);
     z-index: 0;
 }
 
@@ -84,6 +84,7 @@
 }
 
 .about-content {
+    font-family: 'Montserrat', sans-serif;
     transform: skewX(25deg);
     z-index: 4;
     text-align: left;
@@ -95,7 +96,6 @@
 .about-name {
     font-weight: bold;
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 0.3rem;
     color: #e0e0e0;
     margin-left: 0.7rem;
@@ -113,10 +113,8 @@
 .section-wrapper {
     max-width: 1200px;
     margin: 10px auto;
+    padding: 0 1rem;
 }
-
-
-
 
 .our-learnings,
 .who-we-are {
@@ -125,30 +123,31 @@
 
 .our-learnings {
     border-bottom: 1px solid #4cc9f0;
-    border-radius: 0px 0px 75px 0px;
+    border-radius: 0 0 75px 0;
 }
 
 .who-we-are {
     justify-content: center;
     text-align: right;
     border-bottom: 1px solid #4cc9f0;
-    border-radius: 0px 0px 0px 75px;
+    border-radius: 0 0 0 75px;
     margin-top: -1px;
-    /* Overlap the border to connect smoothly */
 }
 
 .title h1 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #4cc9f0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-desc {
     font-size: 1rem;
     line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
+/* Responsive */
 @media (max-width: 768px) {
     .about-card-container {
         transform: none;
@@ -156,7 +155,22 @@
     }
 
     .about-card {
-        transform: none !important;
+        transform: none;
+    }
+
+    .about-content,
+    .about-name,
+    .about-desc {
+        transform: none;
+        margin-left: 0;
+    }
+
+    .about-name {
+        font-size: 1.2rem;
+    }
+
+    .about-desc {
+        font-size: 0.9rem;
     }
 
     .our-learnings,
@@ -165,119 +179,14 @@
     }
 
     .our-learnings {
-        border-bottom: 1px solid #4cc9f0;
-        border-radius: 0px 0px 50px 0px;
+        border-radius: 0 0 50px 0;
     }
 
     .who-we-are {
-        border-bottom: 1px solid #4cc9f0;
-        border-radius: 0px 0px 0px 50px;
+        border-radius: 0 0 0 50px;
     }
 
-    .about-content,
-    .about-name,
-    .about-desc {
-        transform: none !important;
-        margin-left: 0;
+    .section-wrapper {
+        padding: 0 1rem;
     }
 }
-/* 
-.about-card.bhagyesh {
-    background-image: url('/assets/team/bhagyesh.png');
-    background-attachment: lazy;
-}
-
-.about-card.aditya {
-    background-image: url('/assets/team/aditya.png');
-    background-attachment: lazy;
-}
-
-.about-card.anish {
-    background-image: url('/assets/team/anish.png');
-    background-attachment: lazy;
-}
-
-.about-card.avdhoot {
-    background-image: url('/assets/team/avdhoot.png');
-    background-attachment: lazy;
-}
-
-.about-card.dattabhau {
-    background-image: url('/assets/team/dattabhau.png');
-    background-attachment: lazy;
-}
-
-.about-card.meghna {
-    background-image: url('/assets/team/meghna.png');
-    background-attachment: lazy;
-}
-
-.about-card.nachiket {
-    background-image: url('/assets/team/nachiket.png');
-    background-attachment: lazy;
-}
-
-.about-card.ninad {
-    background-image: url('/assets/team/ninad.png');
-    background-attachment: lazy;
-}
-
-.about-card.prashant {
-    background-image: url('/assets/team/prashant.png');
-    background-attachment: lazy;
-}
-
-.about-card.pushkar {
-    background-image: url('/assets/team/pushkar.png');
-    background-attachment: lazy;
-}
-
-.about-card.rohit {
-    background-image: url('/assets/team/rohit.png');
-    background-attachment: lazy;
-}
-
-.about-card.sanket {
-    background-image: url('/assets/team/sanket.png');
-    background-attachment: lazy;
-}
-
-.about-card.sara {
-    background-image: url('/assets/team/sara.png');
-    background-attachment: lazy;
-}
-
-.about-card.saumitra {
-    background-image: url('/assets/team/saumitra.png');
-    background-attachment: lazy;
-}
-
-.about-card.shrirang {
-    background-image: url('/assets/team/shrirang.png');
-    background-attachment: lazy;
-}
-
-.about-card.siddharth {
-    background-image: url('/assets/team/siddharth.png');
-    background-attachment: lazy;
-}
-
-.about-card.siddhi {
-    background-image: url('/assets/team/siddhi.png');
-    background-attachment: lazy;
-}
-
-.about-card.swapnil {
-    background-image: url('/assets/team/swapnil.png');
-    background-attachment: lazy;
-}
-
-.about-card.ved {
-    background-image: url('/assets/team/ved.png');
-    background-attachment: lazy;
-}
-
-.about-card.viru {
-    background-image: url('/assets/team/viru.png');
-    background-attachment: lazy;
-} */

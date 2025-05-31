@@ -1,14 +1,16 @@
 .carousel .card {
   background-color: #1e0e5322;
   padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   text-align: center;
   border-radius: 10px;
   color: white;
-  height: 100%;
+  min-height: 420px;
+  max-height: 420px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .card-subtitle {
@@ -17,16 +19,14 @@
 }
 
 .review-text {
-  min-height: 120px;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-style: italic;
   color: ghostwhite;
   /* Adjust as needed for uniform height */
 }
 
-.review-text {
-  min-height: 100px;
-  /* Adjust for uniformity */
-}
 
 .card-img-top {
   border-radius: 100%;

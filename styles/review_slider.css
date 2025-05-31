@@ -1,37 +1,38 @@
-body{
-  background-color: black;
-}
-
-.review-card {
-  background-color: #1e0e5322;
-  border-radius: 10px;
-  min-height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  color: white;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.reviewer-img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 50%;
+.carousel .card {
+  height: 100%;
 }
 
 .review-text {
-  font-size: .9rem;
-  font-style: italic;
-  color: ghostwhite;
-  flex-grow: 1;
+  min-height: 120px;
+  /* Adjust as needed for uniform height */
+}
+
+.review-text {
+  min-height: 100px;
+  /* Adjust for uniformity */
+}
+
+.card-img-top {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Hide carousels based on device */
+#carouselDesktop {
+  display: none;
+}
+
+#carouselMobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #carouselDesktop {
+    display: block;
+  }
 }
 
 @media (max-width: 767px) {
-  .carousel-control-prev,
-  .carousel-control-next,
-  .carousel-indicators {
-    display: none !important;
+  #carouselMobile {
+    display: block;
   }
 }

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artists</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/logos/spotlight.png" type="image/x-icon" />
+    <!-- all styles -->
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/artist.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/grid_image.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+</head>
+
+<body>
+    <nav aria-label="Main navigation" class="navbar navbar-expand-lg fixed-top">
+        <div class="navbar-brand">
+            <button class="navbar-toggler navbar-brand" type="button" id="sidebarToggle" title="Toggle Sidebar">
+                <i class="fas fa-bars navbar-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" title="Menu">
+                            <i class="fas fa-bars navbar-icon"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="entertainment.html" target="_blank">Entertainment</a>
+                            </li>
+                            <li><a class="dropdown-item" href="sports.html" target="_blank">Sports</a>
+                            </li>
+                            <li><a class="dropdown-item" href="gallery.html" target="_blank">Gallery</a></li>
+                            <li><a class="dropdown-item" href="artist.html" target="_blank">Artists</a></li>
+                            <li><a class="dropdown-item" href="team.html" target="_blank">Our Team</a></li>
+                            <li><a class="dropdown-item" href="https://www.ticketkhidakee.com/" target="_blank"
+                                    rel="noopener">Ticket
+                                    Khidkee</a></li>
+                            <!--  <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">--</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar" id="sidebar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+            <!--             <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="mobileMenuDropdown"
+                            data-bs-toggle="dropdown">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                            <li><a class="dropdown-item" href="#">Option 2</a></li>
+                            <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">More options</a></li>
+                        </ul>
+                    </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="artist.html">Artists</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="team.html">Our Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https//www.ticketkhidakee.com/" target="_blank">Ticket Khidkee</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Sidebar overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+
+    <section class="artists-section">
+        <section class="section-header">
+            <div class="container">
+                <div class="title">
+                    <h1 class="section-title">Artists
+                    </h1>
+                    <nav aria-label="breadcrumb" class="abg-breadcrumb-container">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Artists</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div id="events-container" class="row mt-4"></div>
+            </div>
+        </section>
+        <div class="container-fluid">
+            <div id="artist-grid" class="row g-0">
+                <!-- Artist cards loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Overlay Modal -->
+    <div id="eventOverlay"
+        class="position-fixed top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-dark bg-opacity-75 d-none fade-in">
+        <div class="card text-white bg-black p-4 shadow-lg border-0">
+            <div class="text-end">
+                <button type="button" class="btn-close btn-close-white" aria-label="Close"
+                    onclick="hideEventOverlay()"></button>
+            </div>
+            <div class="text-center">
+                <img id="eventArtistImage" src="" alt="Artist Photo" class="rounded-circle mb-3" />
+                <h4 id="eventArtistName" class="card-title text-uppercase mb-1 fw-bold"></h4>
+                <p id="eventArtistCategory" class="text-secondary mb-3"></p>
+            </div>
+            <div class="text-start">
+                <p><i class="fas fa-calendar-alt me-2 text-danger"></i><strong>Date:</strong> <span
+                        id="eventDate">TBA</span>
+                </p>
+                <p><i class="fas fa-map-marker-alt me-2 text-warning"></i><strong>Venue:</strong> <span
+                        id="eventVenue">TBA</span></p>
+                <p><i class="fas fa-ticket-alt me-2 text-success"></i><strong>Tickets Sold:</strong> <span
+                        id="eventTickets">0</span></p>
+            </div>
+            <div class="text-center mt-3">
+                <button type="button" class="btn btn-outline-light px-4" onclick="hideEventOverlay()">Close</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-wave"></div> <!-- SVG wave -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="container">
+                    <div class="footer-brand"><img src="assets/logos/BR-Logo-Group.png" alt=""></div>
+
+                    <div class="social-container">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                    <p class="copyright">© 2023 Blueramp. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function showEventOverlay(name, category, image, date, venue, tickets) {
+            document.getElementById('eventArtistName').innerText = name;
+            document.getElementById('eventArtistCategory').innerText = category;
+            document.getElementById('eventArtistImage').setAttribute('src', image);
+            document.getElementById('eventDate').innerText = date || "TBA";
+            document.getElementById('eventVenue').innerText = venue || "TBA";
+            document.getElementById('eventTickets').innerText = tickets || 0;
+
+            const overlay = document.getElementById('eventOverlay');
+            overlay.classList.remove('d-none', 'fade-out');
+            overlay.classList.add('fade-in', 'show');
+        }
+
+
+        function hideEventOverlay() {
+            const overlay = document.getElementById('eventOverlay');
+            overlay.classList.remove('fade-in');
+            overlay.classList.add('fade-out');
+            setTimeout(() => {
+                overlay.classList.remove('show');
+                overlay.classList.add('d-none');
+            }, 300);
+        }
+
+        // Fetch artist data and render cards
+        fetch('js/artists.json')
+            .then(response => response.json())
+            .then(artists => {
+                const container = document.getElementById("artist-grid");
+
+                artists.forEach(artist => {
+                    const col = document.createElement("div");
+                    col.className = "col-6 col-md-3 p-0";
+
+                    col.innerHTML = `
+                    <div class="artist-card" 
+                    data-name="${artist.name}" 
+                    data-category="${artist.category || 'Category not specified'}" 
+                    data-image="${artist.image}" 
+                    data-date="${artist.date}" 
+                    data-venue="${artist.venue}" 
+                    data-tickets="${artist.tickets}">
+                    
+                    <h5 class="artist-name">${artist.name}</h5>
+                    <img src="${artist.image}" alt="${artist.name}" class="artist-image">
+                </div>
+            `;
+
+                    const card = col.querySelector('.artist-card');
+                    card.addEventListener('click', () => {
+                        showEventOverlay(
+                            card.getAttribute('data-name'),
+                            card.getAttribute('data-category'),
+                            card.getAttribute('data-image'),
+                            card.getAttribute('data-date'),
+                            card.getAttribute('data-venue'),
+                            card.getAttribute('data-tickets')
+                        );
+                    });
+
+                    container.appendChild(col);
+                });
+            })
+            .catch(error => console.error("Failed to load artists:", error));
+
+    </script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/sidebar.js"></script>
+
+</html>

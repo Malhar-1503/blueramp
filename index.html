@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Ramp Group</title>
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/ventures.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/clients.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="styles/review_slider2.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="shortcut icon" href="assets/logos/spotlight.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="js/breadcrumb.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav aria-label="Main navigation" class="navbar navbar-expand-lg fixed-top">
+        <div class="navbar-brand">
+            <button class="navbar-toggler navbar-brand" type="button" id="sidebarToggle" title="Toggle Sidebar">
+                <i class="fas fa-bars navbar-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" title="Menu">
+                            <i class="fas fa-bars navbar-icon"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="entertainment.html" target="_blank">Entertainment</a>
+                            </li>
+                            <li><a class="dropdown-item" href="sports.html" target="_blank">Sports</a>
+                            </li>
+                            <li><a class="dropdown-item" href="gallery.html" target="_blank">Gallery</a></li>
+                            <li><a class="dropdown-item" href="artist.html" target="_blank">Artists</a></li>
+                            <li><a class="dropdown-item" href="team.html" target="_blank">Our Team</a></li>
+                            <li><a class="dropdown-item" href="https://www.ticketkhidakee.com/" target="_blank"
+                                    rel="noopener">Ticket
+                                    Khidkee</a></li>
+                            <!--  <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">--</a></li> -->
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Slider for BR -->
+    <div class="hero-bg" id="mainBackground"></div>
+
+    <section class="hero-slider-container">
+        <div class="hero-content-layer">
+            <div class="hero-content">
+                <img src="assets/logos/BR-Logo-Group.png" alt="Logo" class="hero-logo">
+                <div class="caption-container">
+                    <div class="hero-caption active" id="currentCaption">ENTERTAINMENT</div>
+                    <div class="hero-caption incoming" id="nextCaption">SPORTS</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-gradient-fade"></div>
+    </section>
+
+    <!-- Sidebar for mobile -->
+    <div class="sidebar" id="sidebar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="entertainment.html">Entertainment</a>
+            </li>
+            <!--             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" id="mobileMenuDropdown"
+                    data-bs-toggle="dropdown">
+                    Menu
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                    <li><a class="dropdown-item" href="#">Option 3</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">More options</a></li>
+                </ul>
+            </li> -->
+            <li class="nav-item">
+                <a class="nav-link" href="sports.html">Sports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="artist.html">Artists</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="team.html">Our Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https//www.ticketkhidakee.com/" target="_blank">Ticket Khidkee</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Sidebar overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main content -->
+
+    <section class="ventures-grid">
+
+        <div class="container">
+            <h2 class="section-title">Our Ventures</h2>
+            <div class="row">
+                <!-- Venture 1 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="entertainment.html"><img src="assets/logos/blueramp_entertainment.png"
+                                alt="blue-Ramp-Entertainment"></a>
+                    </div>
+                </div>
+
+                <!-- Venture 2 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="sports.html"><img src="assets/logos/blueramp_sports.png" alt="blue-Ramp-sports"></a>
+                    </div>
+                </div>
+
+                <!-- Venture 3 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="https://panditfarms.in/" target="_blank" rel="noopener"><img
+                                src="assets/logos/PF_Logo_B.png" alt="blue-Ramp-Entertainment"></a>
+                    </div>
+                </div>
+
+                <!-- Venture 3 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="https://bougainfarms.in/" target="_blank" rel="noopener"><img
+                                src="assets/logos/BV_Logo_B.png" alt="blue-Ramp-Entertainment"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Venture 1 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="https://www.ticketkhidakee.com/" target="_blank" rel="noopener"><img
+                                src="assets/logos/TK_Logo_A.png" alt="blue-Ramp-Entertainment"></a>
+                    </div>
+                </div>
+
+                <!-- Venture 2 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="https://www.instagram.com/khakipacket/?hl=en" target="_blank" rel="noopener"><img
+                                src="assets/logos/KP_Logo_B.png" alt="blue-Ramp-Entertainment"></a>
+                    </div>
+                </div>
+
+                <!-- Venture 3 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <a href="https://www.tailsofthecity.in/" target="_blank" rel="noopener"><img
+                                src="assets/logos/TOTC_Logo_B.png" alt="blue-Ramp-Entertainment"></a>
+                    </div>
+                </div>
+
+                <!-- Venture 3 -->
+                <div class="col-6 col-lg-3">
+                    <div class="venture-card">
+                        <img src="assets/logos/DD_Logo_B.png" alt="blue-Ramp-Entertainment">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTS MARQUEE SECTION - Copy this HTML to your site -->
+    <section class="clients-marquee-section py-5">
+        <div class="clients-marquee-container position-relative overflow-hidden">
+            <h2 class="text-center mb-5">Clients & Partnerships</h2>
+            <div class="clients-marquee-track d-flex align-items-center">
+                <!-- Original set of logos -->
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/alfa.png" alt="Alfa" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/atlas-copco-group.png" alt="atlas-copco-group" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/mahindra.png" alt="mahindra" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/the-times-of-india.png" alt="the-times-of-india" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/sakal.png" alt="sakal" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/maharashtra-times.png" alt="maharashtra-times" class="img-fluid">
+                </div>
+
+                <!-- Duplicate logos for infinite loop -->
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/alfa.png" alt="Alfa" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/atlas-copco-group.png" alt="atlas-copco-group" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/mahindra.png" alt="mahindra" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/the-times-of-india.png" alt="the-times-of-india" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/sakal.png" alt="sakal" class="img-fluid">
+                </div>
+                <div class="clients-marquee-item mx-3">
+                    <img src="assets/clients/maharashtra-times.png" alt="maharashtra-times" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Reviews & Feedback -->
+
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Customer Reviews</h2>
+
+            <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"
+                data-bs-pause="hover">
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="review-card text-center">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                                        class="reviewer-img mx-auto" alt="Reviewer">
+                                    <p class="review-text">"I want to say thank you and give a shout-out to Blue Ramp
+                                        because they are doing such a great job with this venue,
+                                        Pandit Farms. The venue and the organization of everything are so beautiful,
+                                        making all the arrangements and the
+                                        environment so dreamy. I have worked with the team before and even performed at
+                                        this venue earlier, and I am delighted
+                                        to see this growth. It’s great to work with them yet again. Thank you!"</p>
+                                    <h5 class="reviewer-name">John Smith</h5>
+                                    <p class="reviewer-title">Event Coordinator</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-none d-md-block">
+                                <div class="review-card text-center">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                                        class="reviewer-img mx-auto" alt="Reviewer">
+                                    <p class="review-text">"I just finished performing a beautiful concert in Pune that
+                                        was managed by Blue Ramp Management. I absolutely loved the
+                                        atmosphere and the great hospitality. From the arrangements to the audience,
+                                        everything was handled so well. My best
+                                        wishes to the team, and I hope to do more such great concerts together in the
+                                        future. It’s always a pleasure performing
+                                        when the vibe and coordination are this good. Keep shining and organizing such
+                                        soulful events!"</p>
+                                    <h5 class="reviewer-name">Sarah Johnson</h5>
+                                    <p class="reviewer-title">Marketing Director</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="review-card text-center">
+                                    <img src="https://randomuser.me/api/portraits/men/75.jpg"
+                                        class="reviewer-img mx-auto" alt="Reviewer">
+                                    <p class="review-text">"I just finished
+                                        performing a beautiful concert in Pune that
+                                        was managed by Blue Ramp Management. I absolutely loved the
+                                        atmosphere and the great hospitality. From the arrangements to the audience,
+                                        everything was handled so well. My best
+                                        wishes to the team, and I hope to do more such great concerts together in the
+                                        future. It’s always a pleasure performing
+                                        when the vibe and coordination are this good. Keep shining and organizing such
+                                        soulful events!"</p>
+                                    <h5 class="reviewer-name">Michael Chen</h5>
+                                    <p class="reviewer-title">CEO, TechStart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="review-card text-center">
+                                    <img src="https://randomuser.me/api/portraits/women/68.jpg"
+                                        class="reviewer-img mx-auto" alt="Reviewer">
+                                    <p class="review-text">“I have no words to express how I’m feeling; I’m actually
+                                        flying. It’s difficult for me to speak right now because I’m
+                                        levitating in my head. It felt like a time machine. To get such an exceptionally
+                                        beautiful audience and to witness how
+                                        well the entire event was organised, I’m truly grateful to Blue Ramp Management
+                                        and Light Bulb Communications. From the
+                                        seating to the stage under a canopy of nature—it was all a blessing. Thank you!”
+                                    </p>
+                                    <h5 class="reviewer-name">Emily Wilson</h5>
+                                    <p class="reviewer-title">Bride</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-none d-md-block">
+                                <div class="review-card text-center">
+                                    <img src="https://randomuser.me/api/portraits/men/81.jpg"
+                                        class="reviewer-img mx-auto" alt="Reviewer">
+                                    <p class="review-text">"I am Sarang Sathe. Blue Ramp arranged a show for us at
+                                        Bougainvillea Farms in Pune. It's a beautiful venue with a great
+                                        vibe. It was one of the best shows we’ve had on our tour. A heartfelt thanks to
+                                        Blue Ramp and Ticket Khidakee for this
+                                        beautifully curated event. The attention to detail, the crowd, and the ambiance
+                                        made it truly memorable. Looking forward
+                                        to collaborating again on more such amazing shows and venues."</p>
+                                    <h5 class="reviewer-name">David Thompson</h5>
+                                    <p class="reviewer-title">HR Director</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="review-card text-center">
+                                    <img src="https://randomuser.me/api/portraits/women/63.jpg"
+                                        class="reviewer-img mx-auto" alt="Reviewer">
+                                    <p class="review-text">“A big shout out to Blue Ramp and all the
+                                        young brains and
+                                        brawn behind this event. Keep your brains intact and keep
+                                        doing such amazing work! The energy and passion you bring to the table is
+                                        infectious. It’s great to see young talent
+                                        thriving and managing events so beautifully. I genuinely hope you continue
+                                        creating such wonderful experiences for
+                                        audiences and artists alike. Wishing you all the best for more success and
+                                        spectacular events in the future!”</p>
+                                    <h5 class="reviewer-name">Jessica Brown</h5>
+                                    <p class="reviewer-title">Nonprofit Director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+
+                <!-- Mobile arrows -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-wave"></div> <!-- SVG wave -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="container">
+                    <div class="footer-brand"><img src="assets/logos/BR-Logo-Group.png" alt=""></div>
+
+                    <div class="social-container">
+                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                    <p class="copyright">© 2023 Blueramp. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="footer-brand"><img src="assets/logos/BR-Logo-Group.png" alt=""></div>
+
+            <div class="social-container">
+                <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <p class="copyright">© 2023 Blueramp. All rights reserved.</p>
+        </div>
+    </footer> -->
+    <!-- Bootstrap 5.3 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sidebar = document.getElementById('sidebar');
+            const sidebarToggle = document.getElementById('sidebarToggle');
+            const sidebarOverlay = document.getElementById('sidebarOverlay');
+
+            // Sidebar toggle
+            if (sidebarToggle && sidebar && sidebarOverlay) {
+                sidebarToggle.addEventListener('click', function () {
+                    sidebar.classList.toggle('open');
+                    sidebarOverlay.classList.toggle('open');
+                });
+
+                sidebarOverlay.addEventListener('click', function () {
+                    sidebar.classList.remove('open');
+                    sidebarOverlay.classList.remove('open');
+                });
+
+                const sidebarLinks = document.querySelectorAll('#sidebar .nav-link');
+                sidebarLinks.forEach(link => {
+                    link.addEventListener('click', function () {
+                        sidebar.classList.remove('open');
+                        sidebarOverlay.classList.remove('open');
+                    });
+                });
+            }
+
+            // Desktop dropdown hover
+            const desktopDropdown = document.querySelector('.nav-item.dropdown');
+            const desktopMenu = document.querySelector('.dropdown-menu');
+
+            if (desktopDropdown && desktopMenu) {
+                desktopDropdown.addEventListener('mouseenter', function () {
+                    desktopMenu.style.display = 'block';
+                });
+
+                desktopDropdown.addEventListener('mouseleave', function () {
+                    desktopMenu.style.display = 'none';
+                });
+            }
+
+            // Initialize carousel logic
+            buildCarousel();
+
+            window.addEventListener('resize', () => {
+                clearTimeout(window.resizedFinished);
+                window.resizedFinished = setTimeout(buildCarousel, 300);
+            });
+
+            //review slider
+
+
+            fetch('js/reviews.json')
+                .then(response => response.json())
+                .then(data => {
+                    const reviews = data.reviews;
+                    const carouselInner = document.querySelector('.carousel-inner');
+                    carouselInner.innerHTML = '';
+
+                    // Group reviews into slides (1 for mobile, 3 for desktop)
+                    const slides = [];
+                    for (let i = 0; i < reviews.length; i += 3) {
+                        const slideReviews = reviews.slice(i, i + 3);
+                        slides.push(slideReviews);
+                    }
+
+                    // Create slides
+                    slides.forEach((slideReviews, index) => {
+                        const slide = document.createElement('div');
+                        slide.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+
+                        let slideContent = '<div class="row justify-content-center">';
+
+                        slideReviews.forEach((review, reviewIndex) => {
+                            // Show first review on mobile, all on desktop
+                            const displayClass = reviewIndex === 0 ? 'col-12' : 'col-lg-4 col-md-6 d-none d-md-block';
+
+                            slideContent += `
+                        <div class="${displayClass} mb-4">
+                            <div class="review-card text-center">
+                                <img src="${review.image}" class="reviewer-img mx-auto" alt="${review.name}">
+                                <p class="review-text">"${review.text}"</p>
+                                <h5 class="reviewer-name">${review.name}</h5>
+                                <p class="reviewer-title">${review.title}</p>
+                            </div>
+                        </div>
+                    `;
+                        });
+
+                        slideContent += '</div>';
+                        slide.innerHTML = slideContent;
+                        carouselInner.appendChild(slide);
+                    });
+
+                    // Create indicators
+                    const indicatorContainer = document.querySelector('.carousel-indicators');
+                    indicatorContainer.innerHTML = '';
+
+                    slides.forEach((_, index) => {
+                        const indicator = document.createElement('button');
+                        indicator.type = 'button';
+                        indicator.dataset.bsTarget = '#reviewsCarousel';
+                        indicator.dataset.bsSlideTo = index;
+                        indicator.setAttribute('aria-label', `Slide ${index + 1}`);
+                        if (index === 0) {
+                            indicator.className = 'active';
+                            indicator.setAttribute('aria-current', 'true');
+                        }
+                        indicatorContainer.appendChild(indicator);
+                    });
+
+                    // Initialize carousel
+                    new bootstrap.Carousel(document.getElementById('reviewsCarousel'), {
+                        interval: 3000,
+                        pause: 'hover'
+                    });
+                })
+                .catch(error => console.error('Error loading reviews:', error));
+        });
+
+        // Slides data with mobile fallback images
+        const slides = [
+            {
+                bg: "assets/images/entertainment.jpg",
+                bgMobile: "assets/images/facilities-mobile.webp",
+                caption: "ENTERTAINMENT",
+                nextCaption: "SPORTS"
+            },
+            {
+                bg: "assets/images/sports.jpg",
+                bgMobile: "assets/images/know-mobile.webp",
+                caption: "SPORTS",
+                nextCaption: "DECOR"
+            },
+            {
+                bg: "assets/images/decor.jpg",
+                bgMobile: "assets/images/decor-mobile.jpg",
+                caption: "DECOR",
+                nextCaption: "EVENTS"
+            },
+            {
+                bg: "assets/images/sachin.jpg",
+                bgMobile: "assets/images/properties-mobile.webp",
+                caption: "EVENTS",
+                nextCaption: "ENTERTAINMENT"
+            }
+        ];
+
+        const bgElement = document.getElementById('mainBackground');
+        const captionContainer = document.querySelector('.caption-container');
+        let currentIndex = 0;
+        let isAnimating = false;
+
+        function transitionToNextSlide() {
+            if (isAnimating) return;
+            isAnimating = true;
+
+            const currentCaption = document.querySelector('.hero-caption.active');
+            const nextCaption = document.querySelector('.hero-caption.incoming');
+
+            currentCaption.classList.remove('active');
+            currentCaption.classList.add('outgoing');
+            nextCaption.classList.remove('incoming');
+            nextCaption.classList.add('active');
+
+            // Move to next slide
+            currentIndex = (currentIndex + 1) % slides.length;
+            const nextSlide = slides[currentIndex];
+
+            // Pick image based on screen width
+            const bgImage = window.innerWidth < 768 ? nextSlide.bgMobile || nextSlide.bg : nextSlide.bg;
+            bgElement.style.backgroundImage = `url('${bgImage}')`;
+
+            const newNextCaption = document.createElement('div');
+            newNextCaption.className = 'hero-caption incoming';
+            newNextCaption.textContent = nextSlide.nextCaption;
+            captionContainer.appendChild(newNextCaption);
+
+            setTimeout(() => {
+                currentCaption.remove();
+                isAnimating = false;
+            }, 800);
+        }
+
+        setInterval(transitionToNextSlide, 4000);
+
+        function buildCarousel() {
+            const currentSlide = slides[currentIndex];
+            const bgImage = window.innerWidth < 768 ? currentSlide.bgMobile || currentSlide.bg : currentSlide.bg;
+            if (bgElement) {
+                bgElement.style.backgroundImage = `url('${bgImage}')`;
+            }
+
+            // Responsive text/logo scaling
+            const caption = document.querySelector('.hero-caption.active');
+            const logo = document.querySelector('.hero-logo');
+
+            if (window.innerWidth < 768) {
+                if (logo) logo.style.width = '100px';
+            } else if (window.innerWidth < 1200) {
+                if (logo) logo.style.width = '150px';
+            } else {
+                if (logo) logo.style.width = '200px';
+            }
+        }
+
+
+
+        // Dynamic breadcrumbs
+        function updateBreadcrumbs(path) {
+            const breadcrumb = document.querySelector('.breadcrumb');
+            const paths = path.split('/').filter(p => p);
+            let html = '<li class="breadcrumb-item"><a href="/">Home</a></li>';
+
+            paths.forEach((p, i) => {
+                const name = p.replace(/-/g, ' ');
+                if (i === paths.length - 1) {
+                    html += `<li class="breadcrumb-item active">${name}</li>`;
+                } else {
+                    const link = '/' + paths.slice(0, i + 1).join('/') + '/';
+                    html += `<li class="breadcrumb-item"><a href="${link}">${name}</a></li>`;
+                }
+            });
+
+            if (breadcrumb) {
+                breadcrumb.innerHTML = html;
+            }
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper('.reviewSwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: { slidesPerView: 2 },
+                992: { slidesPerView: 3 }
+            }
+        });
+    </script>
+</body>
+
+</html>

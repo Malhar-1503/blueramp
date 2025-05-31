@@ -1,0 +1,29 @@
+{
+    "reviews": [
+        {
+            "name": "Niladri Kumar",
+            "text": "A big shout-out to Blue Ramp and all the young brains and brawn behind this amazing event. Keep your brains intact, stay creative, and continue doing such fantastic work. Wishing you all the best for future events and success.",
+            "img": "./assets/testimonials/niladri-kumar.jpg"
+        },
+        {
+            "name": "Javed Ali",
+            "text": "I just finished a lovely concert in Pune managed by Blue Ramp. The atmosphere was vibrant, and their hospitality was heartwarming. My best wishes to the entire team. I truly hope we collaborate again for more such memorable concerts together.",
+            "img": "./assets/testimonials/javed-ali.jpg"
+        },
+        {
+            "name": "Swanand Kirkire",
+            "text": "Thank you to Blue Ramp for managing everything so beautifully at Pandit Farms. I’ve performed here before and loved seeing their growth. The arrangements and vibe were dreamy. It’s always a pleasure working with this team. Hope to meet again soon!",
+            "img": "./assets/testimonials/swanand-kirkire.webp"
+        },
+        {
+            "name": "Sarang Sathe",
+            "text": "I’m Sarang Sathe. Blue Ramp arranged a show for us at Bougainvillea Farms, Pune. The venue and vibe were amazing—one of our tour’s best. Thanks to Blue Ramp and Ticket Khidakee for a beautifully curated, well-managed, and unforgettable experience.",
+            "img": "./assets/testimonials/sarang-sathe.jpg"
+        },
+        {
+            "name": "Rekha Bharadwaj",
+            "text": "I’m flying after today’s show! The audience was incredible, and the event was flawlessly organized. Thanks to Blue Ramp and Light Bulb Communications. Everything—from the natural setup to the sold-out crowd—was magical. I look forward to many more shows together.",
+            "img": "./assets/testimonials/rekha-bharadwaj.jpg"
+        }
+    ]
+}

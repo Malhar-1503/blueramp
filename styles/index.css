@@ -108,6 +108,10 @@ body::before {
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+
     body::before {
         background-size: auto 100%;
     }

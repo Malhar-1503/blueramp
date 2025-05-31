@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
@@ -8,408 +7,98 @@
     <title>Our Team</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-    <!-- favicon -->
-    <link rel="shortcut icon" href="assets/logos/spotlight.png" type="image/x-icon">
-    <!-- all styles -->
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="assets/logos/spotlight.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
     <link rel="stylesheet" href="styles/grid_image.css" />
-    <link rel="stylesheet" href="styles/team.css">
+    <link rel="stylesheet" href="styles/team.css" />
+    <style>
+        .about-card {
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card-wrapper {
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-        <nav aria-label="Main navigation" class="navbar navbar-expand-lg fixed-top">
-            <div class="navbar-brand">
-                <button class="navbar-toggler navbar-brand" type="button" id="sidebarToggle" title="Toggle Sidebar">
-                    <i class="fas fa-bars navbar-icon"></i>
-                </button>
-
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" title="Menu">
-                                <i class="fas fa-bars navbar-icon"></i>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="entertainment.html" target="_blank">Entertainment</a>
-                                </li>
-                                <li><a class="dropdown-item" href="sports.html" target="_blank">Sports</a>
-                                </li>
-                                <li><a class="dropdown-item" href="gallery.html" target="_blank">Gallery</a></li>
-                                <li><a class="dropdown-item" href="artist.html" target="_blank">Artists</a></li>
-                                <li><a class="dropdown-item" href="team.html" target="_blank">Our Team</a></li>
-                                <li><a class="dropdown-item" href="https://www.ticketkhidakee.com/" target="_blank"
-                                        rel="noopener">Ticket
-                                        Khidkee</a></li>
-                                <!--  <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">--</a></li> -->
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="sidebar" id="sidebar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="entertainment.html">Entertainment</a>
-                </li>
-                <!--             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" id="mobileMenuDropdown"
-                                    data-bs-toggle="dropdown">
-                                    Menu
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Option 3</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">More options</a></li>
-                                </ul>
-                            </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="sports.html">Sports</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="artist.html">Artists</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="team.html">Our Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https//www.ticketkhidakee.com/" target="_blank">Ticket Khidkee</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Sidebar overlay -->
-        <div class="sidebar-overlay" id="sidebarOverlay"></div>
-        <div class="section-wrapper">
-
-            <!-- First Section -->
-            <div class="our-learnings">
-                <div class="title">
-                    <h1>Our Learnings</h1>
-                </div>
-                <p class="section-desc">
-                    Faith in the process is everything. Some ideas soar to the stars, others lay the foundation for even
-                    better ones.
-                    But every single one teaches us something valuable. With each step forward, we learn, we grow, and
-                    we
-                    embrace it all.
-                    At Blue Ramp Group, we’re not just building businesses; we’re crafting stories, designing
-                    unforgettable
-                    experiences,
-                    and leaving lasting footprints in everything we do.
-                </p>
-            </div>
-
-            <!-- Second Section -->
-            <div class="who-we-are">
-                <div class="title">
-                    <h1>Who We Are?</h1>
-                </div>
-                <p class="section-desc">
-                    We’re the dreamers, doers, and wild thinkers who wake up with ideas and step out ready to discover
-                    more.
-                    Every day is an adventure—a blank canvas where we scribble our passion, experiments, and a touch of
-                    madness.
-                    No idea is too wild, too ambitious, or too “out there” for us.
-                    We’d rather roll up our sleeves, take bold actions, and transform the impossible into reality.
-                </p>
-            </div>
-
-        </div>
-
-
-
         <section class="section-header">
             <div class="title">
                 <h1 class="section-title">Our Team</h1>
-                <nav aria-label="breadcrumb" class="abg-breadcrumb-container">
-                    <ol class="breadcrumb" id="dynamicBreadcrumb"></ol>
-                </nav>
             </div>
-
         </section>
-        <!-- <img src="assets/images/learn.png" alt="our_learnings" width="1200px"> -->
 
-        <div class="row g-4 justify-content-center">
-            <!-- Member 1 -->
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card siddharth"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Siddharth Gokhale</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card bhagyesh"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Bhagyesh Ranade</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card shrirang"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Shrirang Khaparde</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card meghna"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Meghana Kulkarni</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card avdhoot"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Avdhoot Deodhar</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card dattabhau"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Datta Bhadkumbe</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card swapnil"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Swapnil Dhawale</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card prashant"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Prashant Jadhav</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card sanket"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Sanket</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card nachiket"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Nachiket</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card aditya"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Aditya Sarnaik</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card viru"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Viraj Rasne</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card rohit"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Rohit Kanade</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card saumitra"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Saumitra</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card anish"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Anish Rane</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card pushkar"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Pushkar</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card sara"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Sara Anwar</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card-wrapper">
-                    <div class="about-card-container">
-                        <div class="about-card siddhi"></div>
-                        <div class="overlay"></div>
-                        <div class="about-content">
-                            <div class="about-name">Siddhi</div>
-                            <div class="about-desc">Team leader with a sharp focus on strategy and execution.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row g-4 justify-content-center" id="teamContainer">
+            <!-- Cards will be injected here dynamically -->
         </div>
     </div>
+
     <footer class="footer">
-        <div class="footer-wave"></div> <!-- SVG wave -->
+        <div class="footer-wave"></div>
         <div class="container">
             <div class="footer-grid">
-                <div class="container">
-                    <div class="footer-brand"><img src="assets/logos/BR-Logo-Group.png" alt=""></div>
-
-                    <div class="social-container">
-                        <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-
-                    <div class="footer-links">
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#">Portfolio</a>
-                        <a href="#">Contact</a>
-                    </div>
-
-                    <p class="copyright">© 2023 Blueramp. All rights reserved.</p>
+                <div class="footer-brand">
+                    <img src="assets/logos/BR-Logo-Group.png" alt="Blue Ramp Logo" />
                 </div>
+                <div class="social-container">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="footer-links">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Contact</a>
+                </div>
+                <p class="copyright">© 2023 Blueramp. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <script>
+        async function loadTeam() {
+            try {
+                const response = await fetch("team.json");
+                const data = await response.json();
+                const container = document.getElementById("teamContainer");
+
+                data.forEach(member => {
+                    const card = document.createElement("div");
+                    card.className = "col-12 col-md-4";
+
+                    card.innerHTML = `
+            <div class="card-wrapper">
+              <div class="about-card-container">
+                <div class="about-card" style="background-image: url('${member.image}');"></div>
+                <div class="overlay"></div>
+                <div class="about-content">
+                  <div class="about-name">${member.name}</div>
+                  <div class="about-desc">${member.description}</div>
+                </div>
+              </div>
+            </div>
+          `;
+                    container.appendChild(card);
+                });
+            } catch (error) {
+                console.error("Failed to load team members:", error);
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", loadTeam);
+    </script>
 </body>
-<script src="js/breadcrumb.js"></script>
-<script src="js/sidebar.js"></script>
 
 </html>

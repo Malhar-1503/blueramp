@@ -44,6 +44,7 @@
     position: relative;
     overflow: hidden;
     transition: transform 0.2s ease, border-color 0.2s ease;
+    text-decoration: none;
 }
 
 .social-icon::before {
@@ -130,6 +131,13 @@
     }
 
     .footer-wave {
-        height: 60px;
+        height: 80px;
+        /* Previously 60px */
+        background-size: cover;
+        opacity: 1;
+        /* Ensure full visibility */
+        -webkit-mask-image: none;
+        /* Remove mask for more visibility on mobile */
+        mask-image: none;
     }
 }

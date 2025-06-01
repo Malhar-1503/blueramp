@@ -25,19 +25,19 @@
     },
     {
         "name": "Siemens",
-        "image": "assets/event_logo/siemens.jpg",
+        "image": "assets/event_logo/siemens.png",
         "eventKey": "siemens",
         "link": "gallery.html#siemens"
     },
     {
         "name": "Atlas Copco",
-        "image": "assets/event_logo/atlas.jpg",
+        "image": "assets/event_logo/atlas.png",
         "eventKey": "atlascopco",
         "link": "gallery.html#atlascopco"
     },
     {
         "name": "Corporate Carnival",
-        "image": "assets/event_logo/corporate carnival.jpg",
+        "image": "assets/event_logo/corporate carnival.png",
         "eventKey": "corporatecarnival",
         "link": "gallery.html#corporatecarnival"
     }

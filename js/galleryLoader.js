@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 section.className = "mb-5";
 
                 section.innerHTML = `
-                    <h3 class="section-title mb-4 animate-fade-in">${event.category}</h3>
+                    <h3 class="gallery-title mb-4 animate-fade-in">${event.category}</h3>
                     <div class="row g-3">
                         ${event.images.map((img) => {
                     const globalIndex = allImages.length;

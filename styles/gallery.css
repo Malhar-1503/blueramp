@@ -7,7 +7,7 @@
 }
 
 .gallery-image,
-.section-title,
+.gallery-title,
 .carousel-control-prev,
 .carousel-control-next {
     will-change: transform, opacity;
@@ -55,7 +55,7 @@
     z-index: 10
 }
 
-.section-title {
+.gallery-title {
     display: inline-block;
     position: relative;
     margin-bottom: 0;
@@ -68,12 +68,12 @@
     transition: opacity 0.3s ease, transform 0.3s ease
 }
 
-.section-title.animate-fade-in {
+.gallery-title.animate-fade-in {
     opacity: 1;
     transform: translateY(0)
 }
 
-.section-title::after {
+.gallery-title::after {
     content: "";
     position: absolute;
     bottom: -10px;
@@ -84,12 +84,26 @@
 }
 
 @media(max-width:576px) {
-    .section-title {
+    .gallery-title {
         font-size: 1.35rem
     }
 
-    .section-title::after {
+    .gallery-title::after {
         width: 80%;
         height: 1.5px
+    }
+
+    .modal-image {
+        max-width: 70%;
+        max-height: 70%
+    }
+
+    .carousel-control-prev.control-strict,
+    .carousel-control-next.control-strict {
+        padding: 0.5rem;
+        top: 40%;
+        background-color: transparent;
+        filter: invert(1);
+        transform: translateY(-40%);
     }
 }

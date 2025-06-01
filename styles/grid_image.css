@@ -111,7 +111,7 @@
     font-weight: 600;
     color: white;
     text-align: center;
-    
+
     z-index: 2;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     padding: 0.5rem 1rem;
@@ -120,16 +120,20 @@
 /* ✅ Responsive */
 @media (max-width: 768px) {
     .event-card {
-        padding: 1.5rem;
         height: 150px;
     }
 
     .event-image {
         background-size: cover;
-        height: 70%;
+        background-position: center;
     }
 
     .event-name {
         font-size: .7rem;
+    }
+
+    .section-title {
+        padding: 2rem 0 0;
+        font-size: 1.5rem;
     }
 }

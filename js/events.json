@@ -55,7 +55,7 @@
     },
     {
         "name": "Krutadnyata Sohala - Chitale Bandhu",
-        "image": "assets/event_logo/chitale.jpg",
+        "image": "assets/event_logo/chitale.png",
         "eventKey": "diwali pahaat",
         "link": "gallery.html#diwalipahaat"
     },
@@ -79,7 +79,7 @@
     },
     {
         "name": "Shreya Ghoshal - All Hearts Tour",
-        "image": "assets/event_logo/all hearts tour.jpg",
+        "image": "assets/event_logo/all hearts tour.png",
         "eventKey": "happy streets",
         "link": "gallery.html#happystreets"
     },

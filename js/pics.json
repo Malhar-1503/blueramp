@@ -63,6 +63,27 @@
         ]
     },
     {
+        "category": "Flea Under The Tree",
+        "images": [
+            {
+                "src": "assets/images/events/flea under the tree/flea under the tree (1).webp",
+                "alt": "flea under the tree 1"
+            },
+            {
+                "src": "assets/images/events/flea under the tree/flea under the tree (2).webp",
+                "alt": "flea under the tree 2"
+            },
+            {
+                "src": "assets/images/events/flea under the tree/flea under the tree (3).webp",
+                "alt": "flea under the tree 3"
+            },
+            {
+                "src": "assets/images/events/flea under the tree/flea under the tree (4).webp",
+                "alt": "flea under the tree 4"
+            }
+        ]
+    },
+    {
         "category": "Happy Streets",
         "images": [
             {
@@ -80,6 +101,69 @@
             {
                 "src": "assets/images/events/happy streets/happy streets (4).webp",
                 "alt": "happy streets 4"
+            }
+        ]
+    },
+    {
+        "category": "Dil Padosi Hai",
+        "images": [
+            {
+                "src": "assets/images/events/dil padosi hai/dil padosi hai (1).webp",
+                "alt": "dil padosi hai 1"
+            },
+            {
+                "src": "assets/images/events/dil padosi hai/dil padosi hai (2).webp",
+                "alt": "dil padosi hai 2"
+            },
+            {
+                "src": "assets/images/events/dil padosi hai/dil padosi hai (3).webp",
+                "alt": "dil padosi hai 3"
+            },
+            {
+                "src": "assets/images/events/dil padosi hai/dil padosi hai (4).webp",
+                "alt": "dil padosi hai 4"
+            }
+        ]
+    },
+    {
+        "category": "Nakshatranche Dene",
+        "images": [
+            {
+                "src": "assets/images/events/nakshatranche dene/nakshatranche dene (1).webp",
+                "alt": "nakshatranche dene 1"
+            },
+            {
+                "src": "assets/images/events/nakshatranche dene/nakshatranche dene (2).webp",
+                "alt": "nakshatranche dene 2"
+            },
+            {
+                "src": "assets/images/events/nakshatranche dene/nakshatranche dene (3).webp",
+                "alt": "nakshatranche dene 3"
+            },
+            {
+                "src": "assets/images/events/nakshatranche dene/nakshatranche dene (4).webp",
+                "alt": "nakshatranche dene 4"
+            }
+        ]
+    },
+    {
+        "category": "Mahindra Gala",
+        "images": [
+            {
+                "src": "assets/images/events/mahindra gala/mahindra gala (1).webp",
+                "alt": "mahindra gala 1"
+            },
+            {
+                "src": "assets/images/events/mahindra gala/mahindra gala (2).webp",
+                "alt": "mahindra gala 2"
+            },
+            {
+                "src": "assets/images/events/mahindra gala/mahindra gala (3).webp",
+                "alt": "mahindra gala 3"
+            },
+            {
+                "src": "assets/images/events/mahindra gala/mahindra gala (4).webp",
+                "alt": "mahindra gala 4"
             }
         ]
     },

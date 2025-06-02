@@ -61,7 +61,6 @@
     margin-bottom: 0;
     text-align: center;
     font-size: 2.5rem;
-    font-weight: 500;
     color: var(--text-dark);
     opacity: 0;
     transform: translateY(20px);

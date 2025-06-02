@@ -252,6 +252,27 @@
         ]
     },
     {
+        "category": "Papon",
+        "images": [
+            {
+                "src": "assets/images/events/papon/papon (1).webp",
+                "alt": "papon 1"
+            },
+            {
+                "src": "assets/images/events/papon/papon (2).webp",
+                "alt": "papon 2"
+            },
+            {
+                "src": "assets/images/events/papon/papon (3).webp",
+                "alt": "papon 3"
+            },
+            {
+                "src": "assets/images/events/papon/papon (4).webp",
+                "alt": "papon 4"
+            }
+        ]
+    },
+    {
         "category": "Sonu Nigam",
         "images": [
             {
@@ -273,23 +294,23 @@
         ]
     },
     {
-        "category": "Surmayi Pahaat",
+        "category": "Surmayee Pahaat",
         "images": [
             {
                 "src": "assets/images/events/surmayi pahat/surmayi pahaat (1).webp",
-                "alt": "surmayi pahat 1"
+                "alt": "surmayee pahaat 1"
             },
             {
                 "src": "assets/images/events/surmayi pahat/surmayi pahaat (2).webp",
-                "alt": "surmayi pahat 2"
+                "alt": "surmayee pahaat 2"
             },
             {
                 "src": "assets/images/events/surmayi pahat/surmayi pahaat (3).webp",
-                "alt": "surmayi pahat 3"
+                "alt": "surmayee pahaat 3"
             },
             {
                 "src": "assets/images/events/surmayi pahat/surmayi pahaat (4).webp",
-                "alt": "surmayi pahat 4"
+                "alt": "surmayee pahaat 4"
             }
         ]
     },
